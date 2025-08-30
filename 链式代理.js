@@ -3,7 +3,7 @@
 
 function main({ proxies }) {
   // 需要匹配的关键词，可自行添加
-  const keywords = [/落地/i, /家宽/i];
+  const keywords = [/BageVM/i, /LegendSG/i];
 
   for (const proxy of proxies) {
     if (!proxy.name) continue;
